@@ -10,6 +10,6 @@ public class TestController {
 
     @RequestMapping(method = RequestMethod.GET, value = "/test")
     public ResponseEntity<String> getVersion() {
-        return ResponseEntity.ok("v1");
+        return ResponseEntity.ok("v2");
     }
 }
